@@ -1,34 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <h3 className='text-6xl text-center font-bold min-h-screen grid place-content-center'>
+      Its a beginning
+      <img className="absolute top-2 left-2 w-1/12" src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest-11--green.dd2bc4ca.svg" alt="hack logo" />
+      <div className="bg-bg-color text-text-color">
+        <a className="text-xl bg-primary-color mt-5 text-white p-2 rounded"
+          href={"https://github.com/devvsakib/rapidroute"}
+        >Visit Repo</a>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </h3>
   )
 }
 
