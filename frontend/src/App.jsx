@@ -7,7 +7,7 @@ function App() {
       <div className="bg-bg-color text-text-color">
         <a className="text-xl bg-primary-color mt-5 text-white p-2 rounded"
           href={"https://github.com/devvsakib/rapidroute"}
-        >Visit Repo</a>
+        >Visit Repository</a>
       </div>
     </h3>
   )
