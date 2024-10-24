@@ -69,7 +69,7 @@ To get a local copy of RapidRoute up and running, follow these steps:
 4. Create .env from the .env.example in backend
 
 ```bash
- cp .env.exp .env
+ cp .env.example .env
 ```
 
 5. Set up the environment variables
