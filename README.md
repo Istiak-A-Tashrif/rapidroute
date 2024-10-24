@@ -24,13 +24,15 @@ Welcome to **RapidRoute** - your go-to open-source delivery app designed for Hac
 
 ## Technologies Used
 
-- **Frontend**: 
+- **Frontend**:
+
   - React
   - Vite
   - Tailwind CSS
   - React Icons
 
-- **Backend**: 
+- **Backend**:
+
   - Node.js
   - Express.js
   - MongoDB (Mongoose)
@@ -45,35 +47,41 @@ Welcome to **RapidRoute** - your go-to open-source delivery app designed for Hac
 To get a local copy of RapidRoute up and running, follow these steps:
 
 1. Clone the repository
+
    ```bash
    git clone https://github.com/yourusername/rapidroute.git
    ```
 
 2. Navigate to the project directory
+
    ```bash
    cd rapidroute
    ```
 
 3. Install the required packages
    ```bash
-   npm install
+   npm run setup
    # or
-   yarn install
+   yarn setup
    ```
+4. Create .env from the .env.example in backend
 
-4. Set up the environment variables
-   - Create a `.env` file in the root directory and add your MongoDB connection string and other required environment variables.
+```bash
+ cp .env.exp .env
+```
 
-5. Start the development server
+5. Set up the environment variables
+
+6. Start the development server
    ```bash
-   npm run dev
+   npm start
    # or
-   yarn dev
+   yarn start
    ```
 
 ## Contributing
 
-Contributions are what make the open-source community such a great place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. 
+Contributions are what make the open-source community such a great place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 To contribute:
 
