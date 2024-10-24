@@ -60,8 +60,10 @@ To get a local copy of RapidRoute up and running, follow these steps:
 
 3. Install the required packages
    ```bash
+   npm install
    npm run setup
    # or
+   yarn install
    yarn setup
    ```
 4. Create .env from the .env.example in backend
